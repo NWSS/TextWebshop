@@ -1,0 +1,27 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+#productList .list-group-item {
+  display: flex;
+  align-items: center;
+}
+
+#productList .list-group-item > span,
+#productList .list-group-item > div {
+  flex: 1;
+}
+
+#productList .list-group-item > div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#productList .list-group-item input[type="number"] {
+  margin-right: 5px;
+}
